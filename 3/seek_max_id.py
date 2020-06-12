@@ -33,4 +33,4 @@ try:
 except:
  pass
 
-print(hex(max(ids)))
+print(hex(max(ids))) # Should plus 10 as there are 10 variables totally defined in this scope
