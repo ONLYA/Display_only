@@ -33,4 +33,15 @@ try:
 except:
  pass
 
-print(hex(max(ids))) # Should plus 10 as there are 10 variables totally defined in this scope
+maxs = []
+try:
+ for i in range(n):
+  try:
+   abc = ids[i*every:(i+1)*every-1]
+  except:
+   abc = ids[i*every:(i+1)*every-1+diff]
+  maxs.append(max(abc))
+except:
+ pass
+
+print(hex(max(maxs))) # Should plus 3 as there are 3 variables totally defined before wtf functions
