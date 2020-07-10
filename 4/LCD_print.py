@@ -39,4 +39,3 @@ class LCD_print:
                 self.prints.append(text)
         else:
             self.lcd.drawString(str(text), 0, self.pl*l)
-            self.line += 1
