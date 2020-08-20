@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-WorkerService1-A44EAA58-DA6E-4F42-9DEC-FB41B9198583</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.7" />
+    <PackageReference Include="NetMQ" Version="4.0.1.4" />
+  </ItemGroup>
+</Project>
