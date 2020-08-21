@@ -9,6 +9,10 @@ using System.Threading;
 using System.Collections;
 using NetMQ.Sockets;
 
+
+/// <summary>
+/// NOW the problem has been solved now...
+/// </summary>
 namespace WorkerService1
 {
     public class Program
@@ -24,10 +28,21 @@ namespace WorkerService1
                     if (bool.Parse(a))
                     {
                         Console.WriteLine("START");
+
+                        // Added Begin
+                        CancellationTokenSource source = new CancellationTokenSource();
+                        CancellationToken token = source.Token;
+                        // Added End
+
                         Thread t = new Thread(new ParameterizedThreadStart(ThreadProc));
-                        t.Start(args);
-                        CreateHostBuilder(args).Build().RunAsync().Wait(); // This works at the first start
-                                                                           // ATTENTION! CreateHostBuilder(args).Build().Run() will return an error about args.Length < 0
+
+                        //t.Start(args);
+                        t.Start(source);
+
+                        //CreateHostBuilder(args).Build().RunAsync(token).Wait();   // This works at the first start
+                        // ATTENTION! CreateHostBuilder(args).Build().Run() will return an error about args.Length < 0
+                        CreateHostBuilder(args).Build().RunAsync(token);
+
                         Console.WriteLine("DONE Start");
                     }
                 }
@@ -42,7 +57,8 @@ namespace WorkerService1
                 });
         public static void ThreadProc(object obj)
         {
-            string[] args = ToStringArray(obj);
+            //string[] args = ToStringArray(obj);
+            var source = obj as CancellationTokenSource;
             using (var recv = new PullSocket())
             {
                 recv.Bind("tcp://127.0.0.1:5489");
@@ -52,14 +68,16 @@ namespace WorkerService1
                     if (!bool.Parse(temp))
                     {
                         Console.WriteLine("STOP");
-                        CreateHostBuilder(args).Build().StopAsync().Wait();
+                        source.Cancel();
+                        source.Dispose();
+                        //CreateHostBuilder(args).Build().StopAsync().Wait();
                         Console.WriteLine("DONE Stop");
                         break;  // Jump out of the loop as soon as the service is stopped.
                     }
                 }
             }
         }
-        /// <summary>
+        /*/// <summary>
         /// Cast object array to string array
         /// from: https://stackoverflow.com/a/10745579/13406850
         /// </summary>
@@ -83,6 +101,7 @@ namespace WorkerService1
             }
 
             return new string[] { arg.ToString() };
-        }
+        }*/
     }
 }
+
