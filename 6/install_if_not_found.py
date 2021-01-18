@@ -30,4 +30,4 @@ for _, __ in zip(_imports, _module_):
       print("There are some errors in {}. Please check that manually".format(_))
       os.exit()
 
-print('\033c') # clear entire terminal screen
+os.system('cls||clear') # clear entire terminal screen
