@@ -11,6 +11,9 @@ _imports = ['scipy',
 _module_ = ['scipy',
             'numpy',
             'matplotlib'] # install name of imported module
+_abbrevs = ['sp',
+            'np',
+            ''] # Abbrev of imported modules, '' for no abbrevs
 ## Adjust Above ##
 
 print("Importing modules...")
@@ -29,5 +32,13 @@ for _, __ in zip(_imports, _module_):
       print(e)
       print("There are some errors in {}. Please check that manually".format(_))
       os.exit()
+for _, __ in zip(_imports, _abbrevs):
+  if __ != '':
+    exec("{} = {}".format(_, __))
+
 
 os.system('cls||clear') # clear entire terminal screen
+
+
+## Do something below
+a = np.float64(2.4)
