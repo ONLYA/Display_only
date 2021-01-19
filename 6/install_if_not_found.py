@@ -34,7 +34,7 @@ for _, __ in zip(_imports, _module_):
       os.exit()
 for _, __ in zip(_imports, _abbrevs):
   if __ != '':
-    exec("{} = {}".format(_, __))
+    exec("{} = {}".format(__, _))
 
 
 os.system('cls||clear') # clear entire terminal screen
