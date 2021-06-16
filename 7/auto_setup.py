@@ -78,7 +78,7 @@ f.close()
 
 user = input("User name: ")
 password = input("Password: ")
-subprocess.call(['prosodyctl', 'register', user, '{}.members.linode.com'.format(hostname), '"{}"'.format(password)])
+subprocess.call(['prosodyctl', 'register', user, '{}.members.linode.com'.format(hostname), '{}'.format(password)])
 subprocess.call(['systemctl', 'restart', 'prosody'])
 subprocess.call(['systemctl', 'restart', 'jicofo'])
 subprocess.call(['systemctl', 'restart', 'jitsi-videobridge2'])
