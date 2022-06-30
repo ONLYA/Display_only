@@ -1,0 +1,1038 @@
+
+          KIRI_HOME_PATH = /home/onlya/.local/share/kiri
+           KICAD_VERSION = 5.1.9+dfsg1-1
+            CURRENT_PATH = /mnt/c/Users/xan/Downloads/anavi-macro-pad-8
+ KICAD_PRO_ABSOLUTE_PATH = /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.pro
+      REPO_ABSOLUTE_PATH = /mnt/c/Users/xan/Downloads/anavi-macro-pad-8
+  KICAD_PROJ_NESTED_PATH = .
+KICAD_PROJ_ABSOLUTE_PATH = /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+         OUTPUT_DIR_PATH = /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri
+            WEB_DIR_PATH = /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/web/
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+Info: ./anavi-macro-pad-8.sch does not have changes
+Info: ./anavi-macro-pad-8.kicad_pcb does not have changes
+[94mAt least one file has changes: [91mfalse[0m
+
+[94mCommits list[0m
+     1	425f439    2020-06-01 00:04:53    Leon Anavi    anavi-macro-pad-8.kicad_pcb: Change footprints
+     2	05d3861    2020-05-19 10:05:31    Leon Anavi    anavi-macro-pad-8.kicad_pcb: Update 5V labels
+     3	8f9d94a    2020-05-18 23:27:12    Leon Anavi    anavi-macro-pad-8.kicad_pcb: Update silkscreen
+     4	79395c1    2020-05-12 23:50:00    Leon Anavi    anavi-macro-pad-8: Improvements
+     5	40322e4    2020-05-05 01:43:39    Leon Anavi    Minor improvements
+     6	d8cb6f1    2020-05-04 01:35:19    Leon Anavi    anavi-macro-pad-8.kicad_pcb: Add logo and labels
+     7	e32f9e0    2020-05-03 23:27:55    Leon Anavi    anavi-macro-pad-8: Routing with Schottky diode
+     8	9d1b511    2020-05-03 21:40:26    Leon Anavi    anavi-macro-pad-8.kicad_pcb: Initial routing
+     9	e45cba1    2020-05-03 16:43:33    Leon Anavi    anavi-macro-pad-8.kicad_pcb: Adjust LEDs
+    10	bbe4b1a    2020-05-03 16:03:31    Leon Anavi    Add components to the schematics
+    11	9f06d15    2020-05-03 13:44:08    Leon Anavi    Add outline and arrange components
+    12	7ba243e    2020-05-02 15:07:42    Leon Anavi    anavi-macro-pad-8: Initial commit
+
+[94mGenerating artifacts[0m
+12 commits, totaling  comparisons
+
+1/ 425f439 | 2020-06-01 00:04:53 | Leon Anavi | anavi-macro-pad-8.kicad_pcb: Change footprints
+2/ 05d3861 | 2020-05-19 10:05:31 | Leon Anavi | anavi-macro-pad-8.kicad_pcb: Update 5V labels
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/425f439
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/05d3861
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/425f439
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/05d3861
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/425f439/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/425f439/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/05d3861/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/05d3861/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 05d3861 [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev 05d3861[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b 05d3861 -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): 05d3861[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+3/ 8f9d94a | 2020-05-18 23:27:12 | Leon Anavi | anavi-macro-pad-8.kicad_pcb: Update silkscreen
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/8f9d94a
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/8f9d94a
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/8f9d94a/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/8f9d94a/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 8f9d94a [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev 8f9d94a[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b 8f9d94a -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): 8f9d94a[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+4/ 79395c1 | 2020-05-12 23:50:00 | Leon Anavi | anavi-macro-pad-8: Improvements
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/79395c1
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/79395c1
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/79395c1/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/79395c1/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 79395c1 [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev 79395c1[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b 79395c1 -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): 79395c1[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+5/ 40322e4 | 2020-05-05 01:43:39 | Leon Anavi | Minor improvements
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/40322e4
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/40322e4
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/40322e4/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/40322e4/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 40322e4 [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev 40322e4[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b 40322e4 -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): 40322e4[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+6/ d8cb6f1 | 2020-05-04 01:35:19 | Leon Anavi | anavi-macro-pad-8.kicad_pcb: Add logo and labels
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/d8cb6f1
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/d8cb6f1
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/d8cb6f1/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/d8cb6f1/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 d8cb6f1 [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev d8cb6f1[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b d8cb6f1 -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): d8cb6f1[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+7/ e32f9e0 | 2020-05-03 23:27:55 | Leon Anavi | anavi-macro-pad-8: Routing with Schottky diode
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/e32f9e0
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/e32f9e0
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/e32f9e0/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/e32f9e0/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 e32f9e0 [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev e32f9e0[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b e32f9e0 -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): e32f9e0[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+8/ 9d1b511 | 2020-05-03 21:40:26 | Leon Anavi | anavi-macro-pad-8.kicad_pcb: Initial routing
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/9d1b511
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/9d1b511
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/9d1b511/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/9d1b511/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 9d1b511 [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev 9d1b511[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b 9d1b511 -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): 9d1b511[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+9/ e45cba1 | 2020-05-03 16:43:33 | Leon Anavi | anavi-macro-pad-8.kicad_pcb: Adjust LEDs
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/e45cba1
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/e45cba1
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/e45cba1/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/e45cba1/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 e45cba1 [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev e45cba1[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b e45cba1 -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): e45cba1[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+10/ bbe4b1a | 2020-05-03 16:03:31 | Leon Anavi | Add components to the schematics
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/bbe4b1a
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/bbe4b1a
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/bbe4b1a/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/bbe4b1a/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 bbe4b1a [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev bbe4b1a[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b bbe4b1a -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): bbe4b1a[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+11/ 9f06d15 | 2020-05-03 13:44:08 | Leon Anavi | Add outline and arrange components
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/9f06d15
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/9f06d15
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/9f06d15/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/9f06d15/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 9f06d15 [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev 9f06d15[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b 9f06d15 -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): 9f06d15[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+12/ 7ba243e | 2020-05-02 15:07:42 | Leon Anavi | anavi-macro-pad-8: Initial commit
+
+[94mRetrieving commits:[0m
+- Source path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+- Output path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/7ba243e
+- Exporting: ./anavi-macro-pad-8-cache.lib
+- Exporting: ./anavi-macro-pad-8.kicad_pcb
+- Exporting: ./anavi-macro-pad-8.pro
+- Exporting: ./anavi-macro-pad-8.sch
+
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/7ba243e
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/7ba243e/anavi-macro-pad-8.sch
+[94mPages:[0m
+     1: anavi-macro-pad-8|anavi-macro-pad-8.sch
+
+/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/7ba243e/anavi-macro-pad-8.kicad_pcb
+[94mLayers:[0m
+     1: 0|F.Cu
+     2: 31|B.Cu
+     3: 32|B.Adhes
+     4: 33|F.Adhes
+     5: 34|B.Paste
+     6: 35|F.Paste
+     7: 36|B.SilkS
+     8: 37|F.SilkS
+     9: 38|B.Mask
+    10: 39|F.Mask
+    11: 40|Dwgs.User
+    12: 41|Cmts.User
+    13: 42|Eco1.User
+    14: 43|Eco2.User
+    15: 44|Edge.Cuts
+    16: 45|Margin
+    17: 46|B.CrtYd
+    18: 47|F.CrtYd
+    19: 48|B.Fab
+    20: 49|F.Fab
+
+   [93mplotgitsch --keep --allow_missing  -l anavi-macro-pad-8-cache.lib -c FF0000:008FFF:FFFFFF:222222 425f439 7ba243e [0m
+   [37m| use compare (ImageMagick) between bitmaps between Git rev 425f439 and Git rev 7ba243e[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+   [37m| Creating /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/sch-anavi-macro-pad-8.svg[0m
+
+
+   [92mkidiff "anavi-macro-pad-8.kicad_pcb" -n --webserver-disable -a 425f439 -b 7ba243e -o "/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri" -f [0m
+   [37m| [0m
+   [37m|       SCM Selected: git [0m
+   [37m|   Kicad Board Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/anavi-macro-pad-8.kicad_pcb[0m
+   [37m| Kicad Project Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|          REPO Path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8[0m
+   [37m|  Kicad Project Dir: .[0m
+   [37m|    Board File Name: anavi-macro-pad-8.kicad_pcb[0m
+   [37m|         Output Dir: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri[0m
+   [37m| [0m
+   [37m| Commit 1 (a): 425f439[0m
+   [37m| Commit 2 (b): 7ba243e[0m
+   [37m| Plotting the page with frame[0m
+   [37m| Generate output files with layer id only[0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+   [37m| Kicad (PCBNew API) version 5.1.9+dfsg1-1[0m
+   [37m| Board version 20171130 (created with Kicad 5)[0m
+   [37m| Traceback (most recent call last):[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 256, in <module>[0m
+   [37m|     processBoard(board_path, plot_dir, args.quiet, args.verbose, args.frame, args.numbers)[0m
+   [37m|   File "/home/onlya/.local/share/kiri/submodules/KiCad-Diff/bin/../kidiff/plot_kicad_pcb.py", line 100, in processBoard[0m
+   [37m|     popt.SetSvgPrecision(aPrecision=2, aUseInch=False)[0m
+   [37m| AttributeError: 'PCB_PLOT_PARAMS' object has no attribute 'SetSvgPrecision'[0m
+   [37m| [0m
+
+     project_path: /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.
+          project: anavi-macro-pad-8.pro
+        schematic: anavi-macro-pad-8.sch
+        cache.lib: anavi-macro-pad-8-cache.lib
+           layout: anavi-macro-pad-8.kicad_pcb
+
+[94mAssembling the HTML[0m
+- Adding commits list in index.html
+- Adding schematic pages list in index.html
+  [37m> INFO: Pages lists differ on both commits. What should we do?[0m
+- Adding layers list in index.html
+  [37m> INFO: Layers lists differ on both commits. What should we do?[0m
+- Project's title: [1m[94manavi-macro-pad-8[0m
+- Project's name: [1m[94manavi-macro-pad-8[0m
+- Sch Title: [1m[95m[1m[91m[missing][0m[0m
+- PCB Title: [1m[96m[1m[91m[missing][0m[0m
+- Sch Revision: [1m[95m[1m[91m[missing][0m[0m
+- PCB Revision: [1m[96m[1m[91m[missing][0m[0m
+- Sch Date: [1m[95m[1m[91m[missing][0m[0m
+- PCB Date: [1m[96m[1m[91m[missing][0m[0m
+- Initial selected commits: 425f439, 05d3861
+- Initial schematic images:
+  Sch 1: [1m[95m/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/425f439/sch-anavi-macro-pad-8.svg[0m
+  Sch 2: [1m[96m/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/05d3861/sch-anavi-macro-pad-8.svg[0m
+- Inicial layer: id=00, name=F_Cu 
+- Initial layer images:
+  PCB 1: [1m[95m/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/425f439/anavi-macro-pad-8-00.svg[0m
+  PCB 2: [1m[96m/mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri/05d3861/anavi-macro-pad-8-00.svg[0m
+
+[94mOutput folder:[0m /mnt/c/Users/xan/Downloads/anavi-macro-pad-8/.kiri
+Starting web-server at http://127.0.0.1:8080
+Hit Ctrl+C to end session
